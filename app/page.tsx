@@ -47,8 +47,8 @@ export default function App() {
       <ul>
         {todos.map((todo) => (
           <li 
-          onClick={() => deleteTodo(todo.id)}
-          key={todo.id}>{todo.content}</li>
+            onClick={() => deleteTodo(todo.id)}
+            key={todo.id}>{todo.content}</li>
         ))}
       </ul>
       <div>
